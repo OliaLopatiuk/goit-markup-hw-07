@@ -258,6 +258,7 @@ background-color: var(--main-background-color);
 .mob-menu.is-open {
 opacity: 1;
   visibility: visible;
+  pointer-events: auto;
 }
 
 .mob-menu-container {
