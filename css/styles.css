@@ -392,8 +392,14 @@ color: var(--text-color)
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 30px;
+  }
+
+@media screen  and (min-width: 428px) {
+  .mob-list-social-links {
     gap: 56px;
   }
+}  
   
   .mob-social-links-item {
     width: 40px;
@@ -1049,6 +1055,7 @@ color: var(--text-color)
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
+    column-gap: 0;
   }
 
   .footer-section-1 {
